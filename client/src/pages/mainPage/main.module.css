@@ -1,0 +1,14 @@
+.mainContainer {
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    z-index: -1;
+    padding-top: 8vh;
+    position: fixed;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+}

@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "My super-puper secret key",
+  "mongoUrl": "mongodb+srv://agul:12345.com@cluster0.fupxr.mongodb.net/propet?retryWrites=true&w=majority",
+  "googleMapsKey": "AIzaSyB08Z2947_Sw3aql0Jrh30P3d4uVYH2GoE"
+}

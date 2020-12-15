@@ -1,0 +1,10 @@
+.facebookBtn {
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    background: url("../img/facebook-brands.svg") no-repeat left center #4560A6;
+    border: 5px solid #5067B3;
+    color: white;
+    padding: 5px 40px 5px 60px;
+    border-radius: 25px;
+}

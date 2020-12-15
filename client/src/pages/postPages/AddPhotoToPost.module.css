@@ -1,0 +1,81 @@
+.addPhotoBlockContainer {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    width: 100%;
+    margin: 10px 0;
+}
+
+.photos {
+    width: 200px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.bigPhoto {
+    width: 150px;
+    height: 120px;
+    background-color: #8DBFAC;
+    /*overflow: hidden;*/
+}
+
+.smallPhoto {
+    width: 50px;
+    height: 40px;
+    background-color: #BABABA;
+    /*overflow: hidden;*/
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.thumbInner {
+    height: 100%;
+}
+
+.dropzone {
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200px 150px auto;
+    grid-column-gap: 10px;
+    /*align-content: space-between;*/
+    /*justify-content: space-between;*/
+}
+
+.listPhoto {
+    /*width: 150px;*/
+    height: 120px;
+    border: 1px solid #8DBFAC;
+    overflow-y: auto;
+    display: grid;
+    grid-row-gap: 5px;
+    align-content: start;
+
+}
+
+.fileListItem {
+    display: grid;
+    text-align: left;
+    color: #BABABA;
+    grid-column-gap: 5px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: 0 5px;
+    height: 1rem;
+}
+
+.fileListItem .fileName {
+    overflow: hidden;
+}
+
+.browseArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,14 @@
+.greenFooter {
+    height: 5vh;
+    background-color: #669885;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 8%;
+    color: white;
+}
+
+.logo {
+    height: 70px;
+}
+

@@ -1,0 +1,42 @@
+.container {
+    background-color: #FF6F61;
+    padding: 1% 10%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+
+}
+
+.container>div {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    width: 40%;
+    font-size: 45px;
+}
+
+.plainText {
+    width: 40%;
+    text-align: left;
+}
+
+.heart {
+    background: url('../../img/heart-regular.svg') no-repeat center;
+    background-size: contain;
+    width: 80px;
+    justify-content: center;
+}
+
+.heart div {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+
+
+
+

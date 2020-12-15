@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 5% 5%;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    background: transparent url('../../img/pets.png') no-repeat;
+    background-size: contain;
+    width: 30%;
+}
+
+.list {
+    width: 50%;
+    text-align: left;
+}
+
+h3{
+    font-size: 18px;
+    color: #669885;
+}
+
+ul {
+    padding: 0 15px;
+}
+
+li {
+    font-size: 16px;
+    color: #393939;
+    list-style: circle;
+}

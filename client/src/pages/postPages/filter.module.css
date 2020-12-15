@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0 10px 20px;
+
+}
+
+.inputItem {
+    margin-right: 10px;
+    height: 30px;
+    border: 1px solid #8DBFAC;
+    border-radius: 15px;
+    padding: 0 15px ;
+    color: #84B6A3;
+    outline-style: none;
+}
+
+.inputItem::placeholder {
+    color: #BABABA;
+}

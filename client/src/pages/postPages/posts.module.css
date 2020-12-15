@@ -1,0 +1,16 @@
+.container {
+    background-color: white;
+    height: 100%;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: auto min-content;
+
+}
+
+.mapContainer {
+    width: min-content;
+}

@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    grid-auto-rows: min-content;
+    align-items: start;
+    background-color: #84B6A3;
+    height: 100%;
+    padding-top: 15px;
+    position: sticky;
+}
+
+.item {
+    display: grid;
+    border-radius: 0 15px 15px 0;
+    margin-right: 30px;
+    width: 120px;
+    padding-left: calc(100% - 150px);
+    color: white;
+
+}
+
+.activeMain {
+    background-color: white;
+    color: #84B6A3;
+}
+
+.activeSub {
+    color: #FFE18B;
+ }
+
+.userContainer {
+    margin-top: 50px;
+    padding: 20px 0 10px ;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+}
+
+.userItem {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    padding: 5px 0 5px calc(100% - 150px);
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,14 @@
+.forPost {
+    color: #84B6A3;
+    display: flex;
+    font-size: 14px;
+}
+
+.forNavBar {
+    /*color: white;*/
+    font-size: 12px;
+}
+
+.item {
+    margin-right: 5px;
+}

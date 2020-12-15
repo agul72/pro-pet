@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+}
+
+.socialIcon {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.facebookIcon {
+    background: url("../img/facebook-brands.svg") no-repeat;
+}
+
+.instagramIcon {
+    background: url("../img/instagram-brands.svg") no-repeat;
+}
+
+.address {
+    font-size: 10px;
+    margin-top: 15px;
+    line-height: 1.5;
+}

@@ -1,0 +1,60 @@
+.container {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.postTitle {
+    color: #669885;
+    font-weight: bold;
+}
+
+.postContainer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px auto;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.label {
+    font-size: 12px;
+    text-align: right;
+}
+
+.labelComments {
+    font-size: 12px;
+    text-align: right;
+    color: #84B6A3;
+}
+
+.textareaContainer {
+    width: 100%;
+    padding-right: 10px;
+}
+
+.textarea {
+    border: 1px solid #8DBFAC;
+    color: #BABABA;
+    width: 100%;
+}
+
+.postFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.avatar {
+    margin-right: 10px;
+}
+

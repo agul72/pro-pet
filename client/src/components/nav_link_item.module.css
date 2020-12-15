@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    font-size: 14px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.icon {
+    fontSize: 12px;
+    height: 14px;
+    width: 14px;
+    margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+.container {
+
+}
+
+.nonFavor {
+    background: url("../../img/star-regular.svg") no-repeat right bottom;
+    background-size: cover;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+
+.favor {
+    background: url("../../img/star-solid.svg") no-repeat right bottom;
+    background-size: cover;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}

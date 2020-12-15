@@ -1,0 +1,23 @@
+.container {
+    height: 5vh;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    position: sticky;
+}
+
+.logo {
+    height: 40px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttonsContainer div {
+    margin-left: 10px;
+}
